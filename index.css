@@ -1,26 +1,29 @@
 /*********************通用*********************/
 @-moz-document domain("ithome.com") {
-    /*****侧边按钮*****/
-    /* 只留下回到顶部和去评论按钮 */
-    #side_func a:not(#gotop):not(#gocomm){
-        display: none !important;
-    }
-}
 
-/*********************首页*********************/
-@-moz-document domain("www.ithome.com") {
     /* 大标题文字广告*/
     [id^="tt"] {
         display: none!important;
     }
 
-    /* 头部焦点区域 */
-    .focus_area, .lf {
-        display: none!important;
+    /*****侧边按钮*****/
+    /* 只留下回到顶部和去评论按钮 */
+    #side_func a:not(#gotop):not(#gocomm){
+        display: none !important;
     }
 
-    /* 首页底部分类板块 */
+    /* 底部分类板块 */
     .con_2 {
+        display: none!important;
+    }
+}
+
+/*********************首页*********************/
+@-moz-document domain("www.ithome.com") {
+
+
+    /* 头部焦点区域 */
+    .focus_area, .lf {
         display: none!important;
     }
 
@@ -90,8 +93,13 @@
     #con .rt .nlst {
         float: none;
     }
-
+    .con-block {
+        padding: 0!important;
+    }
     /*分类标题：最新|最热*/
+    .rt .nlst {
+        padding-top: 20px;
+    }
     .rt .nlst .ct {
         width: auto;
     }
