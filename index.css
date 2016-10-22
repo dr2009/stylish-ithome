@@ -11,10 +11,21 @@
     #side_func a:not(#gotop):not(#gocomm){
         display: none !important;
     }
+    /* 头部导航 */
+    #con {
+        padding-top: 20px;
+    }
 
     /* 底部分类板块 */
     .con_2 {
         display: none!important;
+    }
+
+    /* 内容栏 */
+    /* 购物广告，标记成已删除 */
+    a[href^="http://www.ithome.com/html/digi/"] {
+        opacity: 0.6;
+        text-decoration: line-through;
     }
 }
 
@@ -74,12 +85,6 @@
 
 
     /********************内容栏********************/
-    /* 购物广告，标记成已删除 */
-    a[href^="http://www.ithome.com/html/digi/"] {
-        opacity: 0.6;
-        text-decoration: line-through;
-    }
-
     #con {
         width: 900px;
         padding: 0;
@@ -106,6 +111,7 @@
     .rt .nlst .lst {
         width: auto;
         height: auto;
+        padding-top: 10px;
     }
 
     /*最新更新*/
@@ -127,6 +133,7 @@
     /*底部分页*/
     .index .page_nav {
         width: auto;
+        padding-bottom: 10px;
     }
 
     /*最热排行*/
