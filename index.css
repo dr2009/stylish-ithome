@@ -1,6 +1,14 @@
-/* 首页 */
-
+/*********************通用*********************/
 @-moz-document domain("ithome.com") {
+    /*****侧边按钮*****/
+    /* 只留下回到顶部和去评论按钮 */
+    #side_func a:not(#gotop):not(#gocomm){
+        display: none !important;
+    }
+}
+
+/*********************首页*********************/
+@-moz-document domain("www.ithome.com") {
     /* 大标题文字广告*/
     [id^="tt"] {
         display: none!important;
@@ -129,10 +137,7 @@
         margin-right: -508px!important;
         /* 900/2 + 58 内容栏一半+自己的宽度 */
     }
-    /* 只留下回到顶部和去评论按钮 */
-    #side_func a:not(#gotop):not(#gocomm){
-        display: none !important;
-    }
+
 
     /* 文章页面 */
     #wrapper {
@@ -170,6 +175,29 @@
     }
     .add_comm .comm-con{
         width: 740px!important;
+    }
+
+}
+
+/*********************通用*********************/
+@-moz-document domain("quan.ithome.com") {
+    /* 页码居中 */
+    .pagenew {
+        text-align: center!important;
+        width: 100%!important;
+    }
+    .page_nav .page_num a,
+    .page_nav .page_num span.current {
+        float: none!important;
+        display: inline-block!important;
+    }
+
+    /* 底部去除链接 */
+    #foot {
+    	padding-top: 30px;
+    }
+    #foot .lk {
+        display: none!important;
     }
 
 }
