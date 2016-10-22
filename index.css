@@ -21,6 +21,11 @@
         display: none!important;
     }
 
+    /* 底部去除链接 */
+    .lk {
+        display: none!important;
+    }
+
     /* 内容栏 */
     /* 购物广告，标记成已删除 */
     a[href^="http://www.ithome.com/html/digi/"] {
@@ -43,12 +48,8 @@
     .con-recom,
     .bx-recom ,
     .con-recom + a,
-    #crf1,#hd_float{
+    #crf1, #hd_float{
     	display: none!important;
-    }
-    /*去除底部友链*/
-    #ft .lk {
-        display: none!important;
     }
 
     /*  顶部导航条 */
@@ -211,8 +212,4 @@
     #foot {
     	padding-top: 30px;
     }
-    #foot .lk {
-        display: none!important;
-    }
-
 }
