@@ -192,6 +192,10 @@
     .add_comm .comm-con{
         width: 740px!important;
     }
+    /* 评论列表 */
+    .comm_list ul.list li.entry{
+        width: auto!important;
+    }
 
 }
 
