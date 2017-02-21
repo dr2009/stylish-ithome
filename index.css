@@ -28,7 +28,7 @@
 
     /* 内容栏 */
     /* 购物广告，标记成已删除 */
-    a[href^="http://www.ithome.com/html/digi/"] {
+    a[href^="http://lapin.ithome.com"] {
         opacity: 0.6;
         text-decoration: line-through;
     }
@@ -161,8 +161,9 @@
         padding: 0;
     }
     .content {
-        width: auto;
-        padding: 20px;
+        width: auto!important;
+        padding: 20px!important;
+		float: none!important;
     }
     /* 图片相关文章 */
     .rela-post, .related_buy {
@@ -196,10 +197,9 @@
     .comm_list ul.list li.entry{
         width: auto!important;
     }
-
 }
 
-/*********************通用*********************/
+/*********************IT圈*********************/
 @-moz-document domain("quan.ithome.com") {
     /* 页码居中 */
     .pagenew {
