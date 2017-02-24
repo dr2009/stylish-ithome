@@ -9,7 +9,7 @@
     /*****侧边按钮*****/
     /* 只留下回到顶部和去评论按钮 */
     #side_func a:not(#gotop):not(#gocomm){
-        display: none !important;
+        display: none!important;
     }
     /* 头部导航 */
     #con {
@@ -35,8 +35,7 @@
 }
 
 /*********************首页*********************/
-@-moz-document domain("www.ithome.com") {
-
+@-moz-document domain("ithome.com") {
 
     /* 头部焦点区域 */
     .focus_area, .lf {
@@ -144,7 +143,7 @@
 
     /* 侧边栏 */
     .sidebar{
-        display: none !important;
+        display: none!important;
     }
 
     /********************侧边按钮********************/
@@ -201,6 +200,16 @@
         width: auto!important;
     }
 }
+
+/*********************辣品*********************/
+@-moz-document domain("lapin.ithome.com") {
+    /* 购物广告，标记成已删除 */
+    a[href^="http://lapin.ithome.com"] {
+        opacity: 1;
+        text-decoration: none;
+    }
+}
+
 /*********************IT圈*********************/
 @-moz-document domain("quan.ithome.com") {
     /* 页码居中 */
