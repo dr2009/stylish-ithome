@@ -180,7 +180,10 @@
     .shareto {
         display: none;
     }
+}
 
+/********************评论区********************/
+@-moz-document domain("dyn.ithome.com") {
     /* 评论框*/
     .post_comment,
     .add_comm {
@@ -198,7 +201,6 @@
         width: auto!important;
     }
 }
-
 /*********************IT圈*********************/
 @-moz-document domain("quan.ithome.com") {
     /* 页码居中 */
