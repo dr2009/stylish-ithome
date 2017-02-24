@@ -4,7 +4,7 @@ IT之家去广告，优化阅读; IT圈 去广告，优化样式。
 
 ## 相关地址
 - github地址: https://github.com/dr2009/stylish-ithome
-- userstyles: https://userstyles.org/styles/113834/it
+- userstyles地址: https://userstyles.org/styles/113834/it
 
 ## 更新日志
 - v2.0.4 【2017-02-24】修复评论区样式失效（现在独立成页面），顺便兼容辣科技宅福利页面
