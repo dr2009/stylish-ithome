@@ -167,14 +167,14 @@
     }
     /* 图片相关文章 */
     .rela-post, .related_buy {
-        display: none !important;
+        display: none!important;
     }
     /* 文字相关文章 */
     .related_post ul{
         width: 100%;
     }
     .related_post ul.list_3 li {
-        width: 410px;  /* calc(50% - 20px) */
+        width: calc(50% - 20px);  /* calc(50% - 20px) */
     }
     /* 分享组件 */
     .shareto {
@@ -191,10 +191,10 @@
         width: 100%!important;
     }
     .add_comm textarea{
-        width: 830px!important;
+        width: calc(100% - 30px)!important; /* 15+15*/
     }
     .add_comm .comm-con{
-        width: 740px!important;
+        width: calc(100% - 120px)!important; /* 105+15*/
     }
     /* 评论列表 */
     .comm_list ul.list li.entry{
