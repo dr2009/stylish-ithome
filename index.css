@@ -212,6 +212,16 @@
 
 /*********************IT圈*********************/
 @-moz-document domain("quan.ithome.com") {
+    #con {
+        width: auto;
+    }
+    /*覆盖首页*/
+    #side_func {
+        width: 50px!important;
+        height: 50px!important;
+        bottom: 55px!important;
+        margin-right: -616px!important;
+    }
     /* 页码居中 */
     .pagenew {
         text-align: center!important;
