@@ -112,6 +112,7 @@
         width: auto;
         height: auto;
         padding-top: 10px;
+		overflow: visible;											
     }
 
     /*最新更新*/
@@ -120,11 +121,15 @@
         margin: 0;
     }
     .rt .nlst .new-list ul li {
-        width: 96%;
+        width: 97%;
         box-sizing: border-box;
     }
     .rt .nlst .new-list ul li.top {
         width: 97%
+    }
+	li.mnow {
+        width: auto !important;
+		min-width: 395px!important;
     }
     li span.title {
         width: auto;
