@@ -2,7 +2,7 @@
 @-moz-document domain("ithome.com") {
 
     /* 大标题文字广告*/
-    [id^="tt"] {
+    [id^="tt"],a[href*="http://go.ruanmei.com/url.aspx"] {
         display: none!important;
     }
 
