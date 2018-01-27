@@ -8,6 +8,19 @@
     display: none !important;
   }
 
+  #topest-banner {
+    display: none !important;
+  }
+
+  /* #topest-banner 带来的样式错位 */
+  #hd {
+    top: 0 !important;
+  }
+
+  body {
+    padding-top: 35px !important;
+  }
+
   /*****侧边按钮*****/
   /* 只留下回到顶部和去评论按钮 */
   #side_func a:not(#gotop):not(#gocomm) {
