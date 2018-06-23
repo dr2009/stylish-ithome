@@ -47,6 +47,15 @@
     opacity: 0.6;
     text-decoration: line-through;
   }
+
+  /*去除adblock 提示*/
+  .AdblockBanner {
+    display: none !important;
+  }
+
+  #hd {
+    position: fixed !important;
+  }
 }
 
 @-moz-document domain("ithome.com") {
