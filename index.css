@@ -1,6 +1,6 @@
 @-moz-document domain("ithome.com") {
   /* 大标题文字广告*/
-  [id^="tt"] {
+  [id^="tt"],[id^="_"] {
     display: none !important;
   }
 
